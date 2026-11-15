@@ -14,3 +14,6 @@ The DC5 project frames prognostics as a **world-modelling problem**: a latent de
 | 6 | **Experimental design**: which accelerated-ageing stress levels make the Coffin–Manson exponent identifiable? | "data produced around the requirements of the model" |
 
 > **Scope and honesty.** Everything here is *synthetic*. Parameter values (thermal network, activation energy, exponent, failure criterion, jump rates) are illustrative and **not** calibrated to any real SiC module; the model is *well specified* by construction, so the calibration results in §4 show that the inference machinery is correct, not that the physics is right. Real accelerated-ageing data are exactly what the DC5 project would add.
+>
+> **This notebook was developed through iterative implementation, numerical testing and independent study of the underlying mathematical methods. AI-assisted coding tools were used during development for coding assistance and debugging. The modelling assumptions, implementation choices, numerical experiments and interpretation of results are presented here as a research prototype and are the author's responsibility.**
+
